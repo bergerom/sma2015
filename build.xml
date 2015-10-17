@@ -1,0 +1,9 @@
+<project name="sma2015" default="compile" basedir=".">
+    <property name="src" location="src"/>
+    <property name="bin" location="bin"/>
+    <target name="compile"
+            description="compile the source">
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac srcdir="${src}" destdir="${bin}"/>
+    </target>
+</project>
